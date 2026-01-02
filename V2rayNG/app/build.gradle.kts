@@ -139,6 +139,7 @@ android {
 dependencies {
     // Core Libraries
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar", "*.jar"))))
+    implementation(fileTree(mapOf("dir" to "lib", "include" to listOf("*.aar", "*.jar"))))
 
     // AndroidX Core Libraries
     implementation(libs.androidx.core.ktx)
